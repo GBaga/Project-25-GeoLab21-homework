@@ -1,0 +1,44 @@
+@import "../colors";
+
+.btn-style {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-style:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.btn-style:active {
+  background-color: #3e8e41;
+  transform: scale(1);
+}
+
+.btn-style:focus {
+  outline: 2px solid #02013d;
+  outline-offset: 3px;
+}
+
+h3 {
+  margin: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-div {
+  height: 100px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
